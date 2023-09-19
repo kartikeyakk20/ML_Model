@@ -11,7 +11,7 @@ from xgboost import XGBClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import accuracy_score
-
+print("Welcome to Web App")
 st.title("Machine Learning Models")
 st.write("---")
 st.write("## Upload a csv file")
